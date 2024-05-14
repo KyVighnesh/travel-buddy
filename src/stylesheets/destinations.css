@@ -1,0 +1,131 @@
+.place-container {
+    min-width:220px;
+    cursor: pointer;
+}
+
+.image-container img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.main-container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.scroll-right {
+    display: block;
+    margin-left: 98%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -130px;
+}
+
+.button-wrapper {
+    width: 60%;
+    margin: auto;
+}
+
+.scroll-left {
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 30px;
+    top: -180px;
+}
+
+#Explore {
+    margin-top: 60px;
+}
+
+.place-container h5 {
+    margin-top: 20px;
+}
+
+@media screen and (max-width:860px) {
+    .place-container {
+        min-width:180px;
+    }
+
+    .place-container h5{
+        font-size: 18px;
+    }
+
+    .scroll-right {
+        top: -150px;
+    }
+
+    .scroll-left {
+        top: -203px;
+    }
+}
+
+
+@media screen and (max-width:650px) {
+
+    .main-container {
+        width: 70%;
+    }
+
+    .place-container {
+        min-width:150px;
+    }
+
+    .place-container h5{
+        font-size: 15px;
+    }
+
+    .image-container img{
+       height: 110px;
+    }
+
+    .scroll-right {
+        top: -120px;
+    }
+
+    .scroll-left {
+        top: -173px;
+        right: 65px;
+    }
+
+    .scroll-right {
+        margin-left: 104%;  
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .place-container h5{
+        font-size: 13px;
+    }
+
+    .image-container img{
+       height: 80px;
+    }
+
+    .place-container {
+        min-width:100px;
+    }
+
+    .scroll-left {
+        height: 35px;
+        width: 35px;
+        top: -130px;
+        right: 45px;
+    }
+
+    .scroll-right {
+        height: 35px;
+        width: 35px;
+        top: -95px;
+    }
+}

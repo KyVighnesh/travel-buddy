@@ -1,0 +1,177 @@
+.nav-container {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.font {
+    font-size: 17px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.option-container {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.log-in-button {
+    height: 40px;
+    width: 8%;
+}
+
+.pop-up-div {
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: none;
+}
+
+
+.pop-up-div ul li {
+    list-style: none;
+    border-bottom: 1px solid #e5e5e5;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 25px;
+    text-align: left;
+}
+
+.toggle-container {
+    width: 20%;
+    position: absolute;
+}
+
+.toggle-container img {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:1030px) {
+
+    .toggle-container {
+        position: absolute;
+    }
+    .nav-container {
+        width: 90%;
+    }
+
+    .log-in-button span {
+        font-size: 13px;
+    }
+
+
+}
+
+@media screen and (max-width:860px) {
+    .log-in-button {
+        width: 10%;
+    }
+
+    .nav-container {
+        width: 90%;
+    }
+
+    .option-container {
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width:730px) {
+    .font {
+        font-size: 13px;
+    }
+
+    .log-in-button {
+        width: 12%;
+        height: 38px;
+    }
+}
+
+
+@media screen and (max-width:580px) {
+
+    .pop-up-div {
+        display: block;
+    }
+    .option {
+        display: none;
+    }
+
+    .option-container {
+        display: none;
+        position: absolute;
+        top: 0;
+    }
+
+    
+.toggle-container img {
+    display: block;
+    width: 30%;
+    height: 20px;
+}
+
+.toggle-container {
+    position: static;
+}
+
+.nav-container {
+    width: 70%;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.log-in-button {
+    height: 40px;
+    width: 20%;
+}
+
+}
+
+
+@media screen and (max-width:440px) {
+   
+
+    .log-in-button span {
+        font-size: 10px;
+    }
+
+    .toggle-container img {
+        width: 37%;
+        height: 20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width:380px) {
+
+    .nav-container {
+        width: 90%;
+    }
+    .log-in-button {
+        width: 21%;
+    }
+}
+
+
+
+
+
