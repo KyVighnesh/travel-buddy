@@ -12,6 +12,7 @@
 }
 
 .banner-container p {
+    text-align: justify;
     font-size: 19.5px;
     margin-top: 20px;
 }

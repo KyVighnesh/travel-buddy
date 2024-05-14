@@ -1,0 +1,23 @@
+
+.contact-logo {
+    width:5%;
+    position:fixed;
+    top:600px;
+    left:90%;
+    cursor:'pointer'
+}
+
+
+@media screen and (max-width:1100px) {
+    .contact-logo {
+        top: 400px;
+        width: 8%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contact-logo {
+        width: 10%;
+        top: 380px;
+    }
+}

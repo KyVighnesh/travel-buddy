@@ -9,6 +9,7 @@ import TravelPlan from './components/TravelPlan'
 import { createContext } from 'react';
 import { useState } from 'react';
 import Choose from './components/Choose';
+import Contact from './components/Contact';
 
 
 let dataContext = createContext()
@@ -31,6 +32,7 @@ function App() {
     <Features/>
     <TravelPlan/>
     <Choose/>
+    <Contact/>
     </dataContext.Provider>
     </div>
   );
